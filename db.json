@@ -1,0 +1,39 @@
+{
+    "books": [
+        {
+            "name": "Being a Better Version Of Yourself",
+            "Serial_No": "8776",
+            "price": "1916.87",
+            "id":1
+   
+        },
+        {
+            "name": "Milla and honey",
+            "Serial_No " : "1141",
+            "price" : "700",
+            "id":2
+
+        },
+   
+        {
+            "name": "Harry Porter",
+            "Serial_No" : "2334",
+            "price":"2170" ,
+            "id":3
+        },
+   
+        {
+            "name": "Atomic Habbits",
+            "Serial_No" : "1411",
+            "price" : "1488",
+            "id":4
+        },
+   
+        {
+            "name" : "Leraning Mathematics",
+            "Serial_No" : "3434",
+            "price" :  "1000",
+            "id":5
+        }
+    ]
+}
