@@ -7,7 +7,7 @@
 <head>
 	<title>	ARCHIVE KEEP</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
 	<header>
@@ -78,73 +78,55 @@
 	<footer>
 		<nav>
 		
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
-    <title>My Library</title>
-</head>
-
-<body>
-    <h2>ARCHIVE KEEP</h2>
-    <div id="clients-details">
-        <form id="clients-data" action="" method="POST">
-            <input id="name-input" type="text" placeholder="Enter Your Name Here">
-            <input id="email-input" type="text" placeholder="Enter Your Email Address">
-            <input id="phone-input" type="text" placeholder="Phone Number">
-            <input id="book-name-input" type="text" placeholder="Name Of The Book Borrowed">
-            <input id="book-serial-input" type="text" placeholder="Serial Number of The Book Borrowed">
-        </form>
-    </div>
-
-    <div class="container">
-        <h2>Clients Feedback</h2>
-        <div id="feedback">
-            <form id="clients-comments" action="" method="POST">
-                <input id="comments-input" type="text" placeholder="What Are Your Views On Our New Library System">
-            </form>
-        </div>
-    </div>
-
-    <div class="container">
-        <div id="aboutus">
-            <h2>Contact Us</h2>
-            <div id="email">
-                <h3>Reach Out to Us Via Our Email: <address>archivekeep@gmail.com</address>
-                </h3>
-                <h3>You Can Also Reach Us Through Telecommunication Numbers 0743596043/0793768921</h3>
-                <p>We are glad to be of service to you. We are working our best to ensure that we remain your number one
-                    library.</p>
-                <form id="search_books" action="" method="POST">
-                    <label for="books">Search your book:</label>
-                    <select id="books" name="books">
-                        <option value="1">Book 1</option>
-                        <option value="2">Book 2</option>
-                        <option value="3">Book 3</option>
-                        <option value="4">Book 4</option>
-                        <option value="5">Book 5</option>
-                    </select>
-                    <input id="btn1" type="submit" value="Search Books">
-                </form>
-                <p id="para"></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <input id="submit-btn" type="submit">
-    </div>
-
-    <button>Push me</button>
-
-    <script src="index.js"></script>
-</body>
-
-</html>
-<!DOCTYPE html>
-<html>
-
+			<!DOCTYPE html>
+			<html>
+			<head>
+				
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="index.css">
+				<script src="index.js"></script>
+			</head>
+			<body>
+				<header>
+					
+					<nav>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Books</a></li>
+							<li><a href="#">Borrowers</a></li>
+							<li><a href="#">Loans</a></li>
+						</ul>
+					</nav>
+				</header>
+				<main>
+					<section id="search">
+						<h2>Search Books</h2>
+						<form>
+							<input type="text" placeholder="Search by title, author, or ISBN" id="searchInput">
+							<button type="submit" id="searchButton">Search</button>
+						</form>
+					</section>
+					<section id="books">
+						<h2>Available Books</h2>
+						<table>
+							<thead>
+								<tr>
+									<th>Title</th>
+									<th>Author</th>
+									<th>ISBN</th>
+									<th>Actions</th>
+								</tr>
+							</thead>
+							<tbody id="bookTableBody">
+							</tbody>
+						</table>
+					</section>
+				</main>
+				<footer>
+					<p>Library Management System &copy; 2023</p>
+				</footer>
+			</body>
+			</html>
+			
+			
