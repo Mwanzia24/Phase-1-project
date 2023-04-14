@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Header */
+
 header {
   background-color: #4b2f2f;
   color: #1b0505;
@@ -87,7 +87,7 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0;
+  margin: 2rem ;
 }
 
 .feature i {
