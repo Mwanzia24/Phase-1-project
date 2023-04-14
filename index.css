@@ -268,7 +268,7 @@ nav ul li a:hover {
   border: 1px solid #333;
 }
 
-/* Features Styles */
+
 #features {
   background-color: #1a1024;
   margin-top: 100vh;
@@ -292,7 +292,7 @@ nav ul li a:hover {
   margin-bottom: 1rem;
 }
 
-/* Testimonials Styles */
+
 #testimonials {
   background-color: #0d4050;
   padding: 4rem 2rem;
@@ -315,7 +315,7 @@ body {
   margin: 0 auto;
 }
 
-/* Header Styles */
+
 
 header {
   background-color: #1f2937;
@@ -333,7 +333,7 @@ header p {
   margin: 0;
 }
 
-/* Navigation Styles */
+
 
 nav {
   display: flex;
